@@ -18,8 +18,11 @@ from pandas.plotting import register_matplotlib_converters
 
 # Parameters
 start_date = dt.datetime(2020, 11, 16)
-end_date = dt.datetime(2021, 6, 4)
-PTO_list = ["Company Holiday", "JW - PTO"]
+end_date = dt.datetime(2021, 8, 10)
+PTO_list = ["Company Holiday", "JW - PTO", "BIP JIRA Sync", "Flight",
+            "People Ops/Finance Office Hours", "P&C Planning Meeting Pre-Read",
+            "Office Hours", "Part Time Approval", "Busy", "NO MEETING BLOCK",
+            "Hold for Eng Leads", "People Ops/Finance/Exec Office Hours"]
 
 
 class CalendarEvent:
